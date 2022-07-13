@@ -1,0 +1,166 @@
+
+.font-titles {
+    font-family: "Space Grotesk Bold", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+/*---------------------------------
+## Headings
+---------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: "Space Grotesk Bold", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: bold;
+    text-align: inherit;
+    position: relative;
+    color: #17161A;
+    letter-spacing: -0.01em; }
+h1.title, h2.title, h3.title, h4.title, .widget h4, h5.title, .widget h5, h6.title {
+    margin: 0; }
+h1.heading-md, h1.comment-reply-title, h2.heading-md, h2.comment-reply-title, h3.heading-md, h3.comment-reply-title, h4.heading-md, h4.comment-reply-title, h5.heading-md, h5.comment-reply-title, h6.heading-md, h6.comment-reply-title {
+    font-size: 1.4em !important;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: -0.01em; }
+h1.heading-sm, h2.heading-sm, h3.heading-sm, h4.heading-sm, h5.heading-sm, h6.heading-sm {
+    margin: 5px 0px;
+    font-weight: 600; }
+
+.woocommerce-additional-fields h3,
+.woocommerce-MyAccount-content h3 {
+    font-size: 1.4em;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: -0.01em; }
+
+h1 {
+    font-size: -webkit-calc(46px + 26 * ( (100vw - 576px) / 1024));
+    font-size: calc(46px + 26 * ( (100vw - 576px) / 1024));
+    line-height: 1;
+    letter-spacing: -0.03em; }
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 46px; } }
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 72px; } }
+
+h2 {
+    font-size: -webkit-calc(40px + 14 * ( (100vw - 576px) / 1024));
+    font-size: calc(40px + 14 * ( (100vw - 576px) / 1024));
+    line-height: 1.05;
+    letter-spacing: -0.02em; }
+@media screen and (max-width: 576px) {
+    h2 {
+        font-size: 40px; } }
+@media screen and (min-width: 1600px) {
+    h2 {
+        font-size: 54px; } }
+
+h3 {
+    font-size: -webkit-calc(36px + 4 * ( (100vw - 576px) / 1024));
+    font-size: calc(36px + 4 * ( (100vw - 576px) / 1024));
+    line-height: 1.1; }
+@media screen and (max-width: 576px) {
+    h3 {
+        font-size: 36px; } }
+@media screen and (min-width: 1600px) {
+    h3 {
+        font-size: 40px; } }
+
+h4 {
+    font-size: -webkit-calc(24px + 2 * ( (100vw - 576px) / 1024));
+    font-size: calc(24px + 2 * ( (100vw - 576px) / 1024));
+    line-height: 1.35; }
+@media screen and (max-width: 576px) {
+    h4 {
+        font-size: 24px; } }
+@media screen and (min-width: 1600px) {
+    h4 {
+        font-size: 26px; } }
+
+h5 {
+    font-size: -webkit-calc(19px + 1 * ( (100vw - 576px) / 1024));
+    font-size: calc(19px + 1 * ( (100vw - 576px) / 1024));
+    line-height: 1.3; }
+@media screen and (max-width: 576px) {
+    h5 {
+        font-size: 19px; } }
+@media screen and (min-width: 1600px) {
+    h5 {
+        font-size: 20px; } }
+
+h6 {
+    font-size: 1.05em;
+    line-height: 1.3;
+    letter-spacing: 0; }
+
+/*---------------------------------
+
+---------------------------------*/
+p {
+    width: 100%;
+    margin: 10px auto;
+    display: block; }
+p.text-small {
+    font-size: 0.94rem; }
+
+.has-regular-font-size {
+    font-size: 16px;
+    font-family: inherit; }
+
+.has-extra-small-font-size {
+    font-size: 0.867em; }
+
+.has-small-font-size {
+    font-size: 0.934em; }
+
+.has-large-font-size {
+    font-size: 1.6875em;
+    font-weight: 500; }
+
+.has-larger-font-size {
+    font-size: 1.9875em; }
+
+.text-wrap {
+    margin: 6px 0; }
+.text-wrap *:first-child {
+    margin-top: 0; }
+
+.text-split p {
+    padding-left: 10px;
+    padding-right: 10px; }
+.text-split p:first-child {
+    padding-left: 0; }
+.text-split p:last-child {
+    padding-right: 0; }
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden; }
+.screen-reader-text:focus {
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    display: block;
+    font-size: 0.94rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */ }
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0; }
+
+
+a {
+    text-decoration: none;
+}

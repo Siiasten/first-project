@@ -1,0 +1,56 @@
+.block__3{
+    width: 100%;
+    padding-left: 50px;
+
+}
+
+.heading__block__3{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+
+}
+
+.block__3__content{
+    width: 100%;
+    display: flex;
+    margin-top: 60px;
+}
+
+.numbers {
+    display: flex;
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.number {
+    display: ;
+}
+
+.txt_and_img {
+    display: table-column;
+    padding-left: 70px;
+}
+
+.txt__block3__1{
+    color: white;
+    font-size: 60px;
+}
+
+.txt__block3__2{
+    color: white;
+    font-size: 20px;
+}
+
+.img__block__3{
+    margin-top: 50px;
+}
+
+.block__3__bg{
+    background-color: #26242b;
+    width: 300px;
+    display: flex;
+    justify-self: end;
+    z-index: -3;
+}
