@@ -1,8 +1,6 @@
 *{
-  font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  /*margin: 0;*/
   padding: 0;
 }
 
@@ -16,14 +14,11 @@
   margin: 0 auto;
   padding-left: 200px;
   padding-right: 200px;
+  font-family: 'Ubuntu';
 }
 
-/* .container{
+.container{
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  max-width: 1520px;
-  width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
-} */
+}

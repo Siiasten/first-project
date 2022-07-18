@@ -1,47 +1,15 @@
-.innovations{
-    width: 80%;
-    background-color: #26242b;
-    height: 600px;
+.innovations {
     display: flex;
-    margin-right: -200px;
-    margin-left: -200px;
-    width: calc(100% + 400px);
 }
 
-.innovations__content__container {
-
-}
-
-.innovations__content__right{
-    width: 50%;
-    height: 300px;
-}
-
-.innovations__content__left{
+.innovations__content__left {
     width: 50%;
     background-color: #ba8d67;
-}
-
-.innovations__content__text{
-    color: white;
-    padding-left: 50px;
-}
-
-.innovations__content__text h1{
-    font-size: 30px;
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-.innovations__content__text .heading{
+    color: #fff;
+    padding: 50px 50px;
     font-size: 20px;
 }
 
-.innovations__pic{
-    object-fit: cover;
-}
-
-.list {
-    color: white;
-    padding-left: 64px;
+.innovations__pic {
+    width: 50%;
 }
