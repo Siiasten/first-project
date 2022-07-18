@@ -69,3 +69,12 @@
     margin-bottom: 300px;
     width: 600px;
 }
+
+.blink{
+    animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
