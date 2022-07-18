@@ -20,7 +20,8 @@
   color: #fff;
 }
 
-.heading {
+.system__content__heading {
+  font-size: 32px;
   color: #fff;
   font-weight: 500;
 }

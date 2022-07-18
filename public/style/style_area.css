@@ -1,93 +1,14 @@
-/* .area{
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.area__content{
-    display: flex;
-    justify-content: center;
-}
-
-.area__pic{
-    width: calc(100% - 65%);
-}
-
-.img__area {
-    object-fit: cover;
-    width: 600px;
-}
-
-.area__text{
-    background-color: #343434;
-    color: white;
-    /*width: 400px;*/
-    /* padding-left: 50px;
-    padding-top: 100px;
-    height: 500px;
-    width: calc(100% - 20%);
-} 
-
-/* 
-.area__text__heading{
-    font-size: 30px;
-    padding-top: 40px;
-}
-
-.area__text__main {
-     display: flex;
-}
-
-.area__text__address {
-    font-size: 20px;
-    padding-top: 40px;
-} */
-
-/*.price__pic{*/
-/*    flex: 1;*/
-/*}*/
-
-/*.price__table{*/
-/*    display: flex;*/
-/*    color: white;*/
-/*}*/
-
-/*.table__heading{*/
-/*    flex: 1;*/
-/*    background-color: #26242b;*/
-/*    height: 550px;*/
-/*    color: white;*/
-/*    font-size: 30px;*/
-/*    padding-top: 50px;*/
-/*    padding-left: 50px;*/
-/*}*/
-
-/*.table__body{*/
-/*    flex: 2;*/
-/*    background-color: #ba8d67;*/
-/*    height: 550px;*/
-/*    font-size: 18px;*/
-/*    padding-top: 50px;*/
-/*    padding-left: 50px;*/
-/*}*/
-
-/*.table{*/
-/*    border-spacing: 40px;*/
-/*}*/
-
-/*!*.divider{*!*/
-/*!*    border-bottom: 1px dashed white;*!*/
-/*!*}*!*/
-
-/*.row{*/
-/*    border-bottom: 1px dashed white;*/
-/*}*/
-
 .area__text {
+
   background-color: #343434;
   color: white;
   padding: 50px 50px;
   width: 35%;
+}
+
+.area__container {
+  max-width: 300px;
+  width: 100%;
 }
 
 .area {
@@ -103,4 +24,15 @@
 
 .area__text__heading {
   font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.area__text__main {
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
+}
+
+.area__text__address {
+  font-size: 24px;
 }
