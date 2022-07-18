@@ -71,7 +71,8 @@
 }
 
 .blink{
-    animation: flicker 1.5s infinite;
+    animation: flicker 0.8s infinite;
+    animation-direction: alternate-reverse;
 }
 
 @keyframes flicker {
