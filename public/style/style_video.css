@@ -89,7 +89,7 @@ div.video-wrapper {
    background-color: white;
    color: black;
    max-width: 800px;
-   padding: 30px;
+   /* padding: 30px; */
    position: relative;
 }
 

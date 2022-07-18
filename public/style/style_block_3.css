@@ -25,7 +25,13 @@
 }
 
 .number {
-    display: ;
+    display: block;
+    color: #fff;
+    background-color: #1a191e;
+    border: none;
+    cursor: pointer;
+    font-size: 70px;
+    margin-bottom: 32px;
 }
 
 .txt_and_img {
@@ -54,3 +60,7 @@
     justify-self: end;
     z-index: -3;
 }
+
+.d-none {
+    display: none;
+  }
