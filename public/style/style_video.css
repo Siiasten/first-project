@@ -88,8 +88,8 @@ div.video-wrapper {
 .popup__content{
    background-color: white;
    color: black;
-   max-width: 800px;
-   padding: 30px;
+   max-width: 1300px;
+   padding: 0px;
    position: relative;
 }
 
@@ -113,4 +113,17 @@ div.video-wrapper {
    height: 100%;
    top: 0;
    left: 0;
+}
+
+iframe{
+   margin: 0;
+   width: 1300px;
+   height: 700px;
+   position: relative;
+   z-index: 1;
+}
+
+#player{
+   width: 1000px;
+   display: block;
 }
